@@ -4,7 +4,7 @@
  * @param {string} defaultMessage - Mensaje por defecto
  * @returns {Function} Función para abrir WhatsApp
  */
-export function useWhatsApp(phoneNumber = '+584122515898', defaultMessage = 'Hola, me interesa conocer más sobre sus servicios legales.') {
+export function useWhatsApp(phoneNumber = '+584141535130', defaultMessage = 'Hola, me interesa conocer más sobre sus servicios legales.') {
   const openWhatsApp = (customMessage = null) => {
     // Si se pasa un evento por error, ignorarlo y usar el mensaje por defecto
     if (customMessage && typeof customMessage !== 'string') {

@@ -31,8 +31,7 @@
             <PricingCard title="Asesoría Integral" subtitle="Tu tranquilidad legal garantizada." price="$80"
               price-unit="por hora" :features="integralFeatures" button-text="Contratar Ahora"
               button-class="black-button" icon-type="shield" check-icon-class="yellow-check" :show-badge="true"
-              badge-text="Más Popular" :size="integralCardSize"
-              whatsapp-message="Hola, me interesa contratar la Asesoría Integral por $80/hora para personas naturales." />
+              badge-text="Más Popular" :size="integralCardSize" />
 
             <!-- Tarjeta 2: Asesoría Especializada -->
             <PricingCard title="Asesoría especializada" subtitle="Soluciones hechas a tu medida."

@@ -56,17 +56,17 @@ export const servicesModalData = {
   },
 
   'violencia_de_genero': {
-    subtitle: 'Representación legal especializada y garantías constitucionales para todas las partes involucradas',
-    description: 'Representación legal especializada y garantías constitucionales para todas las partes involucradas. La práctica legal en casos de Violencia de Género exige una respuesta especializada y rigurosa, orientada a garantizar tanto el Derecho a la Justicia de la Víctima como la Presunción de Inocencia y el Debido Proceso del imputado, conforme a la Ley Orgánica sobre el Derecho de las Mujeres a una Vida Libre de Violencia (LODMVLV) y la Constitución venezolana. Ofrecemos representación legal para todas las partes, asegurando el cumplimiento de la ley en cada instancia.',
+    subtitle: 'Ofrecemos representación legal para las partes interesadas',
+    description: 'La práctica legal en casos de Violencia de Género exige una respuesta especializada y rigurosa, orientada a garantizar tanto el Derecho a la Justicia de la Víctima como la Presunción de Inocencia y el Debido Proceso del imputado, conforme a la Ley Orgánica sobre el Derecho de las Mujeres a una Vida Libre de Violencia (LODMVLV) y la Constitución venezolana. Ofrecemos representación legal para todas las partes, asegurando el cumplimiento de la ley en cada instancia.',
     situations: [
       { title: 'Denuncias y Medidas de Protección', subtitle: 'Asistencia inmediata para interponer denuncias, solicitando y gestionando las medidas de protección urgentes (alejamiento, prohibición de acercamiento, desalojo) ante los órganos competentes.' },
-      { title: 'Representación Judicial Penal.', subtitle: 'Acompañamiento a la víctima durante la fase de investigación intermedia y juicio oral.' },
+      { title: 'Representación Judicial Penal.', subtitle: 'Acompañamiento a la parte durante la fase de investigación.' },
       { title: 'Protección Patrimonial y Económica', subtitle: ' Intervención legal para proteger bienes y derechos económicos.' },
       { title: 'Reparación Integral del Daño', subtitle: ' Gestión de todos los mecanismos legales para el reconocimiento de la condición de víctima y la obtención de la debida reparación integral del daño sufrido' },
       { title: 'Garantía del Debido Proceso', subtitle: 'Asegurar el estricto cumplimiento de todas las garantías constitucionales y procesales desde el inicio de la investigación.' },
       { title: 'Contradicción de elementos de convicción. ', subtitle: ' Ejercicio pleno del derecho a la defensa, refutando la imputación material, formal y la acusación y presentando los elementos probatorios que desvirtúen los hechos.' },
-      { title: 'Calificación Jurídica Correcta.', subtitle: 'Lucha por la correcta tipificación de los hechos, evitando imputaciones injustificadas o el uso indebido de los tipos penales de la LODMVLV.' },
-      { title: 'Fases del Proceso.', subtitle: 'Representación legal durante la fase de investigación, intermedia y juicio oral, velando por los derechos del defendido.' }
+      { title: 'Calificación Jurídica Correcta.', subtitle: 'Luchar por la correcta tipificación de los hechos, evitando imputaciones injustificadas o el uso indebido de los tipos penales de la LODMVLV.' },
+      { title: 'Fases del Proceso.', subtitle: 'Representación legal durante la fase intermedia y juicio oral, velando por los derechos del defendido.' }
     ],
     whyChooseUs: 'Rigurosidad legal, ética profesional y un profundo conocimiento de la LODMVLV y el Código Orgánico Procesal Penal. Nuestro compromiso es garantizar que se respeten los derechos constitucionales de la víctima a la justicia y del imputado a la defensa y a la presunción de inocencia, ofreciendo una representación legal especializada, equilibrada y de la más alta calidad en Venezuela.',
     ctaText: 'Solicitar Asesoría y Defensa en Violencia de Género',
@@ -74,7 +74,7 @@ export const servicesModalData = {
   },
 
   'derecho_procesal': {
-    subtitle: 'Asesoría, estrategia y representación en procedimientos judiciales para garantizar el debido proceso.',
+    subtitle: 'Asesoría, estrategia y representación en procedimientos judiciales para hacer valer el debido proceso.',
     description: 'El Derecho Procesal es el eje de la actividad judicial, pues rige la forma, los principios y las normas bajo las cuales se tramitan los conflictos ante los tribunales. Es la disciplina esencial para asegurar la tutela judicial efectiva, el debido proceso y la correcta defensa de sus derechos. Ofrecemos asesoría y representación legal especializada en el manejo estratégico de litigios, garantizando la estricta observancia de los lapsos y formalidades procesales establecidos en el ordenamiento jurídico venezolano.',
     situations: [
       { title: 'Procedimientos Civiles y Mercantiles', subtitle: 'Representación en juicios de conocimiento, demandas de responsabilidad, acciones reivindicatorias, cobros de bolívares y todo el marco del Código de Procedimiento Civil (CPC).' },
@@ -114,7 +114,7 @@ export const servicesModalData = {
     subtitle: 'Asesoría integral en constitución, gestión, cumplimiento y reestructuración de empresas en Venezuela.',
     description: 'El Derecho Corporativo es fundamental para la vida legal y operativa de cualquier negocio, regulando la estructura, el funcionamiento y las relaciones internas y externas de las sociedades mercantiles. Ofrecemos asesoría legal integral a emprendedores, PyMEs y grandes empresas, garantizando el cumplimiento normativo, la optimización de la estructura societaria y la seguridad jurídica en todas sus operaciones en el marco legal venezolano.',
     situations: [
-      { title: 'Constitución y Registro de Sociedades', subtitle: 'Trámites completos para la creación de empresas (C.A., S.R.L., S.A.S.), elaboración de estatutos, y registro ante el Registro Mercantil.' },
+      { title: 'Constitución y Registro de Sociedades en Venezuela, Panamá y Estados Unidos', subtitle: 'Trámites completos para la creación de empresas (Firmas personasales, asociaciones civiles), elaboración de estatutos, y registro ante el Registro Mercantil.' },
       { title: 'Gobierno Corporativo', subtitle: 'Asesoría en la estructuración de la dirección y administración de la empresa, incluyendo la redacción de actas de asamblea, juntas directivas y manuales internos.' },
       { title: 'Fusiones, Adquisiciones y Reestructuraciones (M&A)', subtitle: 'Asesoría en procesos de due diligence, negociación, y formalización legal de transformaciones societarias, fusiones, escisiones y liquidaciones.' },
       { title: 'Contratación Mercantil', subtitle: 'Redacción, negociación y revisión de contratos comerciales estratégicos (distribución, joint ventures, leasing, know-how, franquicias y outsourcing).' },
@@ -269,7 +269,7 @@ export const servicesModalData = {
 
   'derecho_procesal_empresas': {
     subtitle: 'Asesoría y Defensa técnica y representación en litigios penales.',
-    description: 'El Derecho Penal y Procesal Penal rige el ejercicio del poder punitivo del Estado, exigiendo una defensa técnica rigurosa para garantizar el debido proceso y proteger los derechos fundamentales de las personas investigadas o víctimas. Ofrecemos asesoría y representación especializada en todas las fases del proceso penal venezolano, desde la investigación, la etapa intermedia, juicio oral, hasta la ejecución de sentencia.',
+    description: 'El Derecho Penal y Procesal Penal rige el ejercicio del poder punitivo del Estado, exigiendo una defensa técnica rigurosa para hacer valer el debido proceso y proteger los derechos fundamentales de las personas investigadas o víctimas. Ofrecemos asesoría y representación especializada en todas las fases del proceso penal venezolano, desde la investigación, la etapa intermedia, juicio oral, hasta la ejecución de sentencia.',
     situations: [
       { title: 'Defensa Penal Integral (Imputados/Acusados)', subtitle: '' },
       { title: 'Fase de Investigación: Asistencia inmediata en flagrancia, audiencias de presentación, diligencias de investigación, solicitud de medidas cautelares menos gravosas, audiencias, etc', subtitle: '' },
@@ -362,7 +362,7 @@ export const servicesModalData = {
 
   'derecho_penal': {
     subtitle: 'Defensa técnica y representación en litigios penales',
-    description: 'El Derecho Penal y Procesal Penal rige el ejercicio del poder punitivo del Estado, exigiendo una defensa técnica rigurosa para garantizar el debido proceso y proteger los derechos fundamentales.',
+    description: 'El Derecho Penal y Procesal Penal rige el ejercicio del poder punitivo del Estado, exigiendo una defensa técnica rigurosa para hacer valer el debido proceso y proteger los derechos fundamentales.',
     situations: [
       { title: 'Defensa Penal Integral', subtitle: 'Representación completa en todas las fases del proceso penal.' },
       { title: 'Fase de Investigación', subtitle: 'Asistencia inmediata en flagrancia, audiencias de presentación y solicitud de medidas cautelares.' },

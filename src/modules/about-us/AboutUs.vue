@@ -44,7 +44,7 @@
           :style="teamTitleAnimation.animationStyle"
         >
           <h1 class="text-wine text-center" style="font-size: 36px; font-weight: 700; line-height: 1.2;">
-            Conoce a nuestro equipo de asesores y asesoras legales
+            Conoce a nuestro equipo de profesionales aliados
           </h1>
         </v-col>
       </v-row>
@@ -258,9 +258,9 @@ const quoteSize = computed(() => {
 const paragraphs = ref([
   'En Legalia somos un equipo de profesionales especializados en el área legal, comprometidos en ofrecer una orientación <strong>efectiva, clara y personalizada</strong> desde el primer contacto.',
 
-  'Todo comienza con una <strong>entrevista de 1 hora</strong>, presencial u online (al mismo precio), en la que escuchamos tu historia, realizamos preguntas clave y revisamos la documentación necesaria. Con esta información, analizamos tu caso y te conectamos con el <strong>abogado especialista que realmente necesitas</strong>, sin ningún coste adicional por esta primera reunión.',
+  'Todo comienza con una <strong>entrevista de 1 hora</strong>, presencial u online (al mismo precio), en la que escuchamos tu historia, realizamos preguntas clave y revisamos la documentación necesaria. Con esta información, analizamos tu caso y te conectamos con el <strong>abogado especialista que realmente necesitas</strong>, sin ningún costo.',
 
-  'Nuestro compromiso es <strong>brindarte soluciones legales efectivas a precios razonables</strong>. Calculamos de forma transparente los honorarios del abogado y los trámites requeridos para presentarte una propuesta <strong>clara, final y sin sorpresas</strong>, que incluye nuestra comisión.',
+  'Nuestro compromiso es <strong>brindarte soluciones legales efectivas a precios razonables</strong>. Calculamos de forma transparente los honorarios del abogado y los trámites requeridos para presentarte una propuesta <strong>clara, final y sin sorpresas</strong>. Adems contamos con sedes en Caracas, Miranda, Anzoátegui, Bolívar, Nueva Esparta, Portuguesa, Lara, Mérida y Zulia.',
 
   'En Legalia centralizamos todo el proceso: tú realizas el pago directamente a nosotros y nosotros nos encargamos del resto. Además, si surge cualquier inconveniente con el abogado, <strong>estamos siempre de tu lado para resolverlo.</strong>',
 

@@ -92,6 +92,53 @@ export const teamMembers = [
     }
   },
   {
+    id: 'daniela-mejias',
+    name: 'Daniela Mejías',
+    title: 'Abogada Corporativa',
+    profileUrl: '',
+    description: 'Abogada especialista en Derecho Corporativo | Contratos civiles y mercantiles | Asesoría legal empresarial | Cumplimiento y gestión de riesgos | Negociación y representación legal.',
+    fullProfile: {
+      prefacio: {
+        bullets: [
+          'Abogada con experiencia en asesoría legal integral para empresas del sector energético y corporativo.',
+          'Especialista en Derecho Corporativo (UNIMET).',
+          'Egresada de la Universidad Católica Andrés Bello (UCAB).',
+          'Asesora legal con enfoque estratégico y preventivo en entornos empresariales.',
+          'Experiencia en negociación, redacción y supervisión de contratos civiles y mercantiles.',
+          'Participación activa en procesos administrativos, judiciales y extrajudiciales.',
+          'Experiencia en asesoría a empresas offshore y procesos de incorporación de sociedades extranjeras.',
+          'Coordinación y supervisión de equipos legales internos y asesores externos.'
+        ] 
+      },
+      experiencia: [
+        'Asesora Legal en Grupo Tigasco Gas Licuado C.A. (2021 – presente). Abogada Junior / Pasante Legal en De Vita-Bouquet & Asociados (2019 – 2021).',
+        'Gerente General, Venezolana Distribuidora de Gas Natural (VDGAS) (1998 – julio 2007).',
+        {
+          texto: 'Diversos cargos gerenciales y de supervisión, Grupo TIGASCO, VDGAS, Rutas y Ruedas, Martigas (1989 – 1998):',
+          subitems: [
+            'Gerente de Operaciones',
+            'Gerente de Planta de Llenado GLP',
+            'Gerente de Flota y Taller',
+            'Supervisor de Taller Metalúrgico',
+            'Supervisor de Almacén General',
+            'Supervisor Operacional'
+          ]
+        }
+      ],
+      educacion: [
+        'Abogado, Universidad Santa María.',
+        {
+          texto: 'Especialización en Derecho Privado, Universidad Santa María. Diplomados en:',
+          subitems: [
+            'Derecho Civil y Mercantil',
+            'Obligaciones Legales de las Empresas Gerencia, Administración, Liderazgo y Finanzas'
+          ]
+        },
+        'Técnico Superior Universitario en Administración de Empresas, mención Ciencias Comerciales (Instituto de Tecnología Antonio José de Sucre).'
+      ]
+    }
+  },
+  {
     id: 'cruz-marcel-caraballo-espanol',
     name: 'Cruz Marcel Caraballo Español',
     title: 'Abogado Especialista en Derecho Penal y Procesal Penal | Asesor Jurídico | Litigios',

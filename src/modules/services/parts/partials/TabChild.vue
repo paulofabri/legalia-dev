@@ -101,9 +101,11 @@ import ModalPayload from './ModalPayload.vue'
 import { servicesModalData } from '../../data/servicesModalData.js'
 import { useWhatsApp } from '@/composables/useWhatsApp'
 import { vScrollAnimate } from '@/composables/useScrollAnimation'
+import { useCalendly } from '@/composables/useCalendly'
 
 const { mdAndDown } = useDisplay()
 const { openWhatsApp } = useWhatsApp()
+const { openCalendly } = useCalendly()
 
 const isMobile = computed(() => mdAndDown.value)
 
@@ -172,7 +174,7 @@ const closeModal = () => {
 const confirmService = () => {
   const service = selectedService.value
   const message = `Hola, me interesa obtener información sobre el servicio de ${service?.title || 'asesoría legal'}. ¿Podrían ayudarme?`
-  openWhatsApp(message)
+  openCalendly()
   isModalOpen.value = false
 }
 </script>

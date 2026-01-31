@@ -155,7 +155,7 @@
               <!-- Nota de confidencialidad -->
               <div class="confidentiality-note text-center mt-4">
                 <v-icon size="16" color="#6B7280">mdi-lock</v-icon>
-                <span class="ml-1">Tu información será tratada con total confidencialidad</span>
+                <span class="ml-1">Tu información será tratada con total confidencialidad y analizada por el cómite de admisión. </span>
               </div>
             </v-form>
           </v-card>

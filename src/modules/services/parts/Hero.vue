@@ -20,7 +20,7 @@
           :class="titleAnimation.animationClass()"
           :style="titleAnimation.animationStyle"
         >
-          <span class="text-gray">Desarrollamos </span><span class="text-primary-dark">soluciones jurídicas </span><span class="text-primary-dark">personalizadas</span><span class="text-gray">, evitando complicaciones y garantizando tu tranquilidad.</span>
+          <span class="text-gray">Desarrollamos </span><span class="text-primary-dark">soluciones jurídicas </span><span class="text-primary-dark">personalizadas</span><span class="text-gray">, evitando complicaciones y procurando tu tranquilidad.</span>
         </h1>
 
         <div class="button-container d-flex justify-end">
@@ -30,7 +30,7 @@
             height="52" 
             rounded="lg" 
             elevation="2" 
-            @click="openWhatsApp"
+            @click="openCalendly"
             v-intersect="buttonAnimation.intersectOptions"
             :class="buttonAnimation.animationClass()"
             :style="buttonAnimation.animationStyle"
@@ -47,8 +47,10 @@
 <script setup>
 import { useWhatsApp } from '@/composables/useWhatsApp'
 import { useScrollAnimation } from '@/composables/useScrollAnimation'
+import { useCalendly } from '@/composables/useCalendly'
 
 const { openWhatsApp } = useWhatsApp()
+const {openCalendly} = useCalendly()
 
 // Animaciones de entrada sin offset
 const titleAnimation = useScrollAnimation({ 

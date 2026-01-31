@@ -8,7 +8,7 @@
         </div>
       </div>
 
-      <v-card class="pricing-card" elevation="2" @click="handleButtonClick">
+      <v-card class="pricing-card" elevation="2">
         <v-card-text class="pa-8 text-center">
           <!-- Icono -->
           <div class="card-icon-wrapper mb-4 d-flex flex-row justify-center align-center">
@@ -45,6 +45,7 @@ import { computed } from 'vue'
 import shieldIcon from '@/modules/services/assets/pricing-card/shield.svg'
 import buildingIcon from '@/modules/services/assets/pricing-card/building.svg'
 import { useWhatsApp } from '@/composables/useWhatsApp'
+import { useCalendly } from '@/composables/useCalendly'
 
 const props = defineProps({
   title: {
@@ -108,6 +109,7 @@ const props = defineProps({
 })
 
 const { openWhatsApp } = useWhatsApp()
+const { openCalendly } = useCalendly()
 
 const iconSrc = computed(() => {
   return props.iconType === 'shield' ? shieldIcon : buildingIcon
@@ -118,7 +120,7 @@ const handleButtonClick = () => {
     openWhatsApp(props.whatsappMessage)
   } else {
     // Mensaje por defecto si no se proporciona uno específico
-    openWhatsApp(`Hola, me interesa conocer más sobre ${props.title}.`)
+    openCalendly()
   }
 }
 </script>
