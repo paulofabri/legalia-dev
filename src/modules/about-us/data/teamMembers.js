@@ -113,28 +113,10 @@ export const teamMembers = [
       experiencia: [
         'Asesora Legal en Grupo Tigasco Gas Licuado C.A. (2021 – presente). Abogada Junior / Pasante Legal en De Vita-Bouquet & Asociados (2019 – 2021).',
         'Gerente General, Venezolana Distribuidora de Gas Natural (VDGAS) (1998 – julio 2007).',
-        {
-          texto: 'Diversos cargos gerenciales y de supervisión, Grupo TIGASCO, VDGAS, Rutas y Ruedas, Martigas (1989 – 1998):',
-          subitems: [
-            'Gerente de Operaciones',
-            'Gerente de Planta de Llenado GLP',
-            'Gerente de Flota y Taller',
-            'Supervisor de Taller Metalúrgico',
-            'Supervisor de Almacén General',
-            'Supervisor Operacional'
-          ]
-        }
       ],
       educacion: [
-        'Abogado, Universidad Santa María.',
-        {
-          texto: 'Especialización en Derecho Privado, Universidad Santa María. Diplomados en:',
-          subitems: [
-            'Derecho Civil y Mercantil',
-            'Obligaciones Legales de las Empresas Gerencia, Administración, Liderazgo y Finanzas'
-          ]
-        },
-        'Técnico Superior Universitario en Administración de Empresas, mención Ciencias Comerciales (Instituto de Tecnología Antonio José de Sucre).'
+        'Especialista en Derecho Corporativo, Universidad Metropolitana (UNIMET).',
+        'Abogada, Universidad Católica Andrés Bello (UCAB).',
       ]
     }
   },
@@ -309,6 +291,39 @@ export const teamMembers = [
     }
   },
   {
+    id: 'leticia-morillo',
+    name: 'Leticia Morillo Moros',
+    title: 'Abogada | Ex Jueza de Primera Instancia',
+    profileUrl: '',
+    description: 'Abogada especialista en Derecho Procesal Civil y Derecho de la Niñez y Adolescencia | Administración pública | Protección de niños, niñas y adolescentes | Docente universitaria | Ejercicio libre de la profesión.',
+    fullProfile: {
+      prefacio: {
+        bullets: [
+          'Abogada con más de 25 años de experiencia profesional en el ámbito jurídico.',
+          'Especialista en Derecho Procesal Civil (Universidad Santa María).',
+          'Especialista en Derecho de la Niñez y Adolescencia (Universidad Central de Venezuela – UCV).',
+          'Ex Jueza de Primera Instancia del Poder Judicial del estado Miranda..',
+          'Amplia trayectoria en el sistema de protección de niños, niñas y adolescentes.',
+          'Experiencia en análisis, redacción y revisión de documentos jurídicos.',
+          'Liderazgo de equipos legales en instituciones públicas.',
+          'Docente universitaria con sólida vocación académica.',
+        ]
+      },
+      experiencia: [
+        'Jueza de Primera Instancia del Poder Judicial, Dirección Administrativa Regional Miranda (2002 – 2017).',
+        'Asesora Legal en el Servicio de Atención Integral de la Niñez y Adolescencia de Miranda – SEPINAMI (2000 – 2002).',
+        'Consultora Jurídica en la Fundación del Niño Seccional Miranda (1995 – 1997).',
+        'Abogada en libre ejercicio (presente).',
+        'Profesora Universitaria, Universidad Bicentenaria de Aragua, Núcleo San Antonio de Los Altos (1998 – 2016).',
+      ],
+      educacion: [
+        'Especialista en Derecho Procesal Civil, Universidad Santa María.',
+        'Especialista en Derecho de la Niñez y Adolescencia, Universidad Central de Venezuela (UCV).',
+        'Abogada, Universidad Santa María.'
+      ]
+    }
+  },
+  {
     id: 'ana-yoleida-pacheco',
     name: 'Ana Yoleida Pacheco',
     title: 'Abogado Especialista en Derecho Penal y Procesal Penal | Asesor Jurídico | Litigios',
@@ -334,6 +349,41 @@ export const teamMembers = [
         'Abogada, Magna Cum Laude.',
         'Licenciada en Educación, mención Lectura y Escritura, Summa Cum Laude.',
         'Especialista en Propiedad Intelectual y Marketing, Universidad de Los Andes (ULA).'
+      ]
+    }
+  },
+  {
+    id: 'jose-lombardo',
+    name: 'José Miguel Lombardo G',
+    title: 'Abogado | Socio Principal | Ex Juez Accidental Marítimo',
+    profileUrl: '',
+    description: 'Abogado especialista en Derecho Marítimo, Mercantil y Civil | Derecho Internacional | Protección de niños, niñas y adolescentes | Derecho Laboral | Docente universitario | Asesor institucional.',
+    fullProfile: {
+      prefacio: {
+        bullets: [
+          'Abogado con más de 30 años de experiencia profesional en el ejercicio libre y en cargos públicos.',
+          'Socio Principal de Lombardo Parra & Asociados.',
+          'Ex Juez Accidental Marítimo de Primera Instancia con competencia nacional.',
+          'Especialista en Derecho de la Navegación y del Comercio por Aguas (UCV).).',
+          'specialista en Derecho Laboral (Universidad Santa María).',
+          'Amplia trayectoria en derecho marítimo, mercantil, civil, laboral y derecho internacional.',
+          'Experiencia como asesor jurídico de entes públicos, federaciones y organismos internacionales.',
+          'Participación activa en proyectos legislativos en materia de comercio marítimo y navegación.'
+        ]
+      },
+      experiencia: [
+        'Socio Principal, Lombardo Parra & Asociados, Abogados (2009 – presente).',
+        'Juez Accidental Marítimo de Primera Instancia en lo Civil, Mercantil, Tránsito y Marítimo (2010 – 2018).',
+        'Asesor Jurídico de la Federación de Asociaciones de Usuarios y Consumidores de Venezuela – FEVACU (2008 – presente).',
+        'Consultor Jurídico y Asesor Externo del INCRET (2007 – 2008).',
+        'Abogado en libre ejercicio (2004 – 2007).',
+        'Asesor Jurídico Externo Ad Honorem del Vice-Consulado Italiano en Los Teques (1996 – 2002).',
+      ],
+      educacion: [
+        'Especialista en Derecho Laboral, Universidad Santa María.',
+        'Especialista en Derecho de la Navegación y del Comercio por Aguas, Universidad Central de Venezuela (UCV).',
+        'Abogado, Universidad Católica Andrés Bello (UCAB).',
+        'Diplomado en Relaciones Internacionales, Asociación de las Naciones Unidas.',
       ]
     }
   },
