@@ -95,7 +95,7 @@ export const teamMembers = [
     id: 'daniela-mejias',
     name: 'Daniela Mejías',
     title: 'Abogada Corporativa',
-    profileUrl: '',
+    profileUrl: '/members/daniela-mejias.webp',
     description: 'Abogada especialista en Derecho Corporativo | Contratos civiles y mercantiles | Asesoría legal empresarial | Cumplimiento y gestión de riesgos | Negociación y representación legal.',
     fullProfile: {
       prefacio: {
@@ -294,7 +294,7 @@ export const teamMembers = [
     id: 'leticia-morillo',
     name: 'Leticia Morillo Moros',
     title: 'Abogada | Ex Jueza de Primera Instancia',
-    profileUrl: '',
+    profileUrl: '/members/leticia-morillo.webp',
     description: 'Abogada especialista en Derecho Procesal Civil y Derecho de la Niñez y Adolescencia | Administración pública | Protección de niños, niñas y adolescentes | Docente universitaria | Ejercicio libre de la profesión.',
     fullProfile: {
       prefacio: {
@@ -356,7 +356,7 @@ export const teamMembers = [
     id: 'jose-lombardo',
     name: 'José Miguel Lombardo G',
     title: 'Abogado | Socio Principal | Ex Juez Accidental Marítimo',
-    profileUrl: '',
+    profileUrl: '/members/jose-lombardo.webp',
     description: 'Abogado especialista en Derecho Marítimo, Mercantil y Civil | Derecho Internacional | Protección de niños, niñas y adolescentes | Derecho Laboral | Docente universitario | Asesor institucional.',
     fullProfile: {
       prefacio: {
